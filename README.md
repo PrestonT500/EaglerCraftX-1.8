@@ -1,5 +1,5 @@
 # EaglerCraftX-1.8
-EaglerCraftX Client for 1.8  
+EaglerCraftX Client for 1.8 (Resent Client)
   
 **I DO NOT OWN OR WORK ON EAGLERCRAFT, I JUST HOST THESE SITES FOR EAGLERCRAFT**  
   
