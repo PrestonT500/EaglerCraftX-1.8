@@ -12,6 +12,10 @@
       margin: 0;
       padding: 0;
       text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
     }
 
     h1 {
@@ -22,7 +26,7 @@
       color: #555;
     }
 
-    button, .dropdown-btn {
+    button, .dropdown-btn, .source-btn {
       background-color: #4caf50;
       color: white;
       padding: 10px 20px;
@@ -35,7 +39,7 @@
       display: inline-block;
     }
 
-    button:hover, .dropdown-btn:hover {
+    button:hover, .dropdown-btn:hover, .source-btn:hover {
       background-color: #45a049;
     }
 
@@ -62,20 +66,47 @@
     .dropdown-btn:hover .dropdown-content {
       display: block;
     }
+
+    .splitter {
+      border-right: 1.5px solid #888; /* Adjust color as needed */
+      height: 50px; /* Adjust height as needed */
+      margin: 0 10px; /* Adjust margin as needed */
+    }
+
+    .main-reset-buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .dropdown-btn-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
   <h1>Welcome to EaglerCraftX</h1>
   <h2>Pick a Client:</h2>
-  <a href="main.html"><button>Main Client</button></a>
-  <a href="resent.html"><button>Resent Client</button></a>
 
-  <div class="dropdown-btn">
-    Precision Client
-    <div class="dropdown-content">
-      <a href="Precision.html">Precision Client</a>
-      <a href="PrecisionBeta.html">Precision Beta Client</a>
+  <div class="main-reset-buttons">
+    <a href="main.html"><button>Main Client</button></a>
+    <div class="splitter"></div>
+    <a href="resent.html"><button>Resent Client</button></a>
+  </div>
+
+  <div class="dropdown-btn-container">
+    <div class="splitter"></div>
+    <div class="dropdown-btn">
+      Precision Client
+      <div class="dropdown-content">
+        <a href="Precision.html">Precision Client</a>
+        <a href="PrecisionBeta.html">Precision Beta Client</a>
+      </div>
     </div>
   </div>
+
+  <a href="https://github.com/PrestonT500/EaglerCraftX-1.8" class="source-btn">Source</a>
 </body>
 </html>
