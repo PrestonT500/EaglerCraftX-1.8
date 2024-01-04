@@ -22,7 +22,7 @@
       color: #555;
     }
 
-    button {
+    button, .dropdown-btn {
       background-color: #4caf50;
       color: white;
       padding: 10px 20px;
@@ -32,10 +32,35 @@
       border-radius: 5px;
       margin: 10px;
       text-decoration: none;
+      display: inline-block;
     }
 
-    button:hover {
+    button:hover, .dropdown-btn:hover {
       background-color: #45a049;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown-btn:hover .dropdown-content {
+      display: block;
     }
   </style>
 </head>
@@ -44,5 +69,13 @@
   <h2>Pick a Client:</h2>
   <a href="main.html"><button>Main Client</button></a>
   <a href="resent.html"><button>Resent Client</button></a>
+
+  <div class="dropdown-btn">
+    Precision Client
+    <div class="dropdown-content">
+      <a href="Precision.html">Precision Client</a>
+      <a href="PrecisionBeta.html">Precision Beta Client</a>
+    </div>
+  </div>
 </body>
 </html>
