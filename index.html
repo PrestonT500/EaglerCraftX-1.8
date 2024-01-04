@@ -13,8 +13,7 @@
       padding: 0;
       text-align: center;
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
     }
 
@@ -96,12 +95,28 @@
       flex-direction: column;
       align-items: center;
     }
+
+    .source-btn {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .source-btn:hover {
+      background-color: #333;
+    }
   </style>
 </head>
 <body>
   <h1>Welcome to EaglerCraftX</h1>
-  <h2>Pick a Client:</h2>
-
+  
   <div class="column-1-8">
     <a href="main.html"><button>Main Client</button></a>
     <div class="splitter"></div>
