@@ -14,7 +14,7 @@
       text-align: center;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      min-height: 100vh;
     }
 
     h1 {
@@ -100,8 +100,14 @@
 
     .footer {
       margin-top: auto;
-      margin-bottom: 20px;
-      color: #777;
+      background-color: #ddd;
+      padding: 20px;
+    }
+
+    .footer-divider {
+      width: 100%;
+      border-top: 1px solid #888;
+      margin: 20px 0;
     }
   </style>
 </head>
@@ -122,6 +128,8 @@
       <a href="PrecisionBeta.html">Precision Beta Client</a>
     </div>
   </div>
+
+  <div class="footer-divider"></div>
 
   <div class="footer">
     <p>I am not affiliated with or employed by EaglerCraft. I solely host these sites. I do not own or work for EaglerCraft and am not affiliated with Mojang.</p>
