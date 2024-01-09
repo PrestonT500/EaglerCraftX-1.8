@@ -5,3 +5,4 @@ EaglerCraftX Client for 1.8
   
 **Links:**
 - [Vercel Hosted](https://eaglercraftx1-8-prestont500.vercel.app) (https://eaglercraftx1-8-prestont500.vercel.app)
+- [Cloudflare Pages Hosted](https://eaglercraftx1-8.pages.dev/) (https://eaglercraftx1-8.pages.dev/)
