@@ -1,3 +1,5 @@
+# Moved to https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io
+
 # EaglerCraftX-1.8
 EaglerCraftX Client for 1.8
   
